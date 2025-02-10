@@ -8,14 +8,14 @@
 // Two class are required to implement it.
 // Child class inherits parent class.
 
-class Overrideex{
+public class Overideex{
     // Parent method
     void show() {
         System.out.println("Parent class method is called");
     }
 }
 
-class Child extends Overrideex{
+class Child extends Overideex{
 
     @Override
     void show() {
@@ -23,10 +23,10 @@ class Child extends Overrideex{
     }
 
     public static void main(String[] args) {
-        Overrideex obj1 = new Overrideex();
+        Overideex obj1 = new Overideex();
         obj1.show();
 
-        Overrideex obj2 = new Child();
+        Overideex obj2 = new Child();
         obj2.show();
     }
 }

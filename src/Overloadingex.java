@@ -10,7 +10,7 @@
 // NO Inheritance is needed.
 
 import java.util.Scanner;
-class Overloadingex {
+public class Overloadingex {
     static void function(int a,int b){
         System.out.println("sum is "+ a+b);
     }
